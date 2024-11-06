@@ -95,7 +95,7 @@ header .hire-talent {
 .hero {
   text-align: left;
   /* padding-left: 3rem 2rem; */
-  background: linear-gradient(to bottom, #fafafa, #e0f7e9);
+  /* background: linear-gradient(to bottom, #fafafa, #e0f7e9); */
   height: 900px;
   width: 100vw;
 }
@@ -377,4 +377,134 @@ header .hire-talent {
   font-size: medium;
   text-align: center;
   margin: 0px 5px 10px 5px;
+}
+.cost {
+  background-color: #DFEFD7;
+  border-radius: 25px;
+  width: 300px;
+  margin-left: 150px;
+  height: 50px;
+  text-align: center;
+  padding-top: 15px;
+  font-size: large;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+.BOX1{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+.box1R1 p {
+    margin-left: 150px;
+    margin-right: 50px;
+  margin-top: 20px;
+  font-size: 15px;
+  width: 300px;
+}
+.BOX2{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+.BOX1 h3 {
+  margin-top: 30px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: larger;
+  height: 40px;
+}
+.BOX2 h3 {
+  margin-top: 30px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: larger;
+  height: 40px;
+}
+/* From Uiverse.io by nikk7007 */ 
+.cont {
+  display: flex;
+  align-items: center;
+  transform: scale(1);
+  position: relative;
+  bottom: 30px;
+  left: 30px;
+}
+
+input[type="checkbox"] {
+  height: 1.7rem;
+  width: 1.7rem;
+  margin: 5px;
+  display: inline-block;
+  appearance: none;
+  position: relative;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+input[type="checkbox"]::after {
+  content: '';
+  display: block;
+  height: 0.9rem;
+  width: .4rem;
+  border-bottom: .31rem solid white;
+  border-right: .31rem solid white;
+  opacity: 0;
+  transform: rotate(45deg) translate(-50%, -50%);
+  position: absolute;
+  top: 45%;
+  left: 21%;
+  transition: .25s ease;
+}
+
+input[type="checkbox"]::before {
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  background-color: rgb(42, 121, 97);
+  border-radius: 50%;
+  opacity: .5;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: .3s ease;
+}
+
+input[type="checkbox"]:checked::before {
+  height: 130%;
+  width: 130%;
+  opacity: 100%;
+}
+
+input[type="checkbox"]:checked::after {
+  opacity: 100%;
+}
+
+span {
+  font-size: 2rem;
+}
+.cost1 {
+    background-color: #DFEFD7;
+    border-radius: 25px;
+    width: 200px;
+    margin-left: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.why {
+  margin-left: 100px;
+}
+.why h1 {
+  font-size: 60px;
 }
